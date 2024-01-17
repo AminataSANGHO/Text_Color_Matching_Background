@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+h1 {
+    font-size: 6em;
+    margin-top: 130px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+form {
+    text-align: center;
+    font-family: Inter;
+    font-size: 2em;
+    font-weight: 10;
+    position: absolute;
+    margin: 100px;
+}
+
+#choose {
+    margin-right: 50px;
+}
+
+#backgroundColor{    
+    width: 150px;
+    height: 40px;
+}

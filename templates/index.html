@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  <title>Color Customization</title>
+ 
+</head>
+<body>
+  <h1 id="welcomeText">Welcome to our COLOR Matching Application</h1>
+  
+  <form>
+    <label for="backgroundColor" id="choose">Choose background color: </label>
+    <input type="color" id="backgroundColor" name="backgroundColor" value="#ffffff">
+  </form>
+  <script src="{{ url_for('static', filename='index.js') }}"></script>
+ 
+</body>
+</html>
